@@ -1,0 +1,113 @@
+html,
+body {
+	height: 100%;
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	margin: 0 !important;
+}
+
+#all {
+	position: relative;
+	min-height: 100vh;
+}
+
+#navigation {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #3498db;
+	text-align: center;
+	border-top: 1px solid #1276b0;
+	border-bottom: 1px solid #1276b0;
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	text-shadow: 2px 2px 1px #000000;
+	display: inline-block;
+	color: #cacaca;
+}
+
+ol a {
+	color: #ececec;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li {
+	float: left;
+	width: 285px;
+	height: 40px;
+	border-right: 1px solid #1276b0;
+	background-color: #3498db;
+}
+
+ol > li:first-child {
+	border-left: 1px solid #1276b0;
+}
+
+ol > li:hover {
+	background-color: #56bafd;
+}
+
+ol > li:hover > a {
+	color: #0165a0;
+}
+
+ol > li > ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul {
+	display: block;
+}
+
+ol > li > ul > li {
+	background-color: #56bafd;
+	position: relative;
+	z-index: 100;
+	border-top: 1px solid #1276b0;
+}
+
+ol > li > ul > li:hover {
+	background-color: #3498db;
+}
+
+ol > li > ul > li:hover > a {
+	color: #0165a0;
+}
+
+#content {
+	width: 60%;
+	padding-top: 1.5rem;
+	padding-bottom: 3.5rem;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #67cbfe;
+	text-align: center;
+	padding: 10px 0;
+}
+
+li .wyszukaj {
+	display: block;
+	height: 38px;
+	border: none;
+	width: 280px;
+	text-align: center;
+	background-color: #aed6f1;
+}

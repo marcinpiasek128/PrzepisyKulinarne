@@ -1,0 +1,67 @@
+.movie {
+	background-color: #dedede;
+	margin-top: 15px;
+}
+
+.title {
+	text-align: center;
+	overflow: hidden;
+	padding: 10px;
+	font-size: 35px;
+}
+
+.leftcolumn {
+	float: left;
+	width: 23%;
+	padding: 1%;
+}
+
+.leftcolumn img {
+	width: 100%;
+	height: auto;
+}
+
+.rightcolumn {
+	float: left;
+	width: 73%;
+	padding: 1%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.description {
+	padding: 0 1% 1% 1%;
+}
+
+.info {
+	float: left;
+	width: 70%;
+}
+
+.rating {
+	float: left;
+	width: 26%;
+	margin-right: 1%;
+	padding: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	background-color: #bcbcbc;
+}
+
+.rating h1 {
+	margin-bottom: 0;
+}
+
+.rating h3 {
+	margin-top: 0;
+}
+
+#ocen {
+	background-color: #3498db;
+	border: 0px;
+	color: white;
+	font-size: 20px;
+}
